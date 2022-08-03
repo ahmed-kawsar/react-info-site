@@ -3,3 +3,48 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.app {
+  max-width: 550px;
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 90%;
+}
+
+#header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 30px;
+  background-color: #21222a;
+  height: 91px;
+}
+
+#header .title h3 {
+  color: #deebf8;
+  font-size: 16px;
+}
+
+#header img {
+  width: 100%;
+}
+
+#main {
+  background-color: #282d35;
+  color: #fff;
+  padding: 50px;
+}
+
+#main ul {
+  margin-top: 20px;
+  padding: 20px;
+}
+
+#main ul li {
+  line-height: 2rem;
+  font-size: 16px;
+}
